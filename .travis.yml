@@ -11,8 +11,8 @@ script:
 deploy:
   provider: elaselasticbeanstalk
   region:  "us-west-1"
-  app: "docker-react"
-  env: "DockerReact-env"
+  app: "udemy-docker"
+  env: "UdemyDocker-env"
   bucket_name: "elasticbeanstalk-us-west-1-177532915676"
   bucket_path: "docker-react"
   on:
