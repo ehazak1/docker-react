@@ -9,7 +9,7 @@ script:
   - docker run ehazak/docker-react npm run test -- --coverage
 
 deploy:
-  provider: elaselasticbeanstalk
+  provider: elasticbeanstalk
   region:  "us-west-1"
   app: "udemy-docker"
   env: "UdemyDocker-env"
